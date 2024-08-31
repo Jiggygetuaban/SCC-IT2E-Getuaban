@@ -4,7 +4,7 @@ package javaappgrade;
 public class Grades {
     int id;
     String name;
-    double p, m, pf, f;
+    double p, m, pf, f,average;
     
     
     public void addGrade(int sid, String sname, double sm, double spf, double sf, double sp){
@@ -18,7 +18,7 @@ public class Grades {
 
     
     public void viewGrade() {
-        double average = (this.p + this.m + this.pf + this.f) / 4;
+        average = (this.p + this.m + this.pf + this.f) / 4;
         String remarks = (average > 3.0) ? "Failed" : "Passed";
         
         
