@@ -1,5 +1,6 @@
 
-package getuaban;
+package javaappgrade;
+
 import java.util.*;
 
 public class Account {
@@ -109,4 +110,4 @@ public class Account {
         return hasUppercase && hasLowercase && hasSpecialChar;
     }
 }
-}
+

@@ -14,7 +14,11 @@ public class JavaAppGrade {
         //pr.addProducts(101, "Mark", 50, 10, 200);
         //pr.getProducts();
         
-        gr.getGrades();
+//        gr.getGrades();
+        
+        Account acc = new Account();
+        acc.getAccount();
+        
     }
 }
 
